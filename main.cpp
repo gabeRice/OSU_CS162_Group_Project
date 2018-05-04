@@ -1,6 +1,15 @@
-#include <iostream>
+/*******************************************************************************
+ * File: main.cpp
+ * Author:
+ * Date:
+ * Description:
+*******************************************************************************/
+
+#include "Critter.hpp"
+#include "Ant.hpp"
+#include "Doodlebug.hpp"
+#include "Grid.hpp"
 
 int main(){
-	cout << "I know I'm missing using" <<endl;
 	return 0;
 }
