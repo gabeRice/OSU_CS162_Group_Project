@@ -10,6 +10,7 @@
 
 #include "Ant.hpp"
 #include "Doodlebug.hpp"
+#include <iostream>
 
 class Grid
 {
@@ -31,29 +32,27 @@ class Grid
 		Grid(int,int,int,int);
 		~Grid();
 		
-		//getters & setters
-/*		int getNumberCyclesToRun() const;
+		int getNumberCyclesToRun() const;
 		int getCyclesAlreadyRan() const;
 		int getNumAnts() const;
 		int getNumDoodlebugs() const;
-		static int getNumRows();
-		static int getNumCols();
-		void setNumberCyclesToRun();
-		void setCyclesAlreadyRan();
-		void setNumAnts();
-		void setNumDoodlebugs();
-		static void setNumRows;
-		static void setNumCols;
+		int getNumRows() const;
+		int getNumCols() const;
+		void setNumberCyclesToRun(int);
+		void setCyclesAlreadyRan(int);
+		void setNumAnts(int);
+		void setNumDoodlebugs(int);
+		void setNumRows(int);
+		void setNumCols(int);
 
 		//other functions
-		void resolveDoodlebugs();
-		void resolveAnts();
-*/
+		void printGrid() const;
+//		void resolveDoodlebugs();  these can be un-commented out later. haven't 
+//		void resolveAnts();		  written the functions yet.
+
 
 };
 
 
 
 #endif
-
-
