@@ -11,12 +11,15 @@
 class Critter
 {
 	protected:
+		int cyclesAlive;
 
 	public:
-
+		virtual ~Critter();
+		virtual char printCritter() const;
 };
 
 
 
 #endif
+
 
