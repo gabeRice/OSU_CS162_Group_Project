@@ -8,17 +8,19 @@
 #ifndef ANT_HPP
 #define ANT_HPP
 
+#include "Critter.hpp"
+
 class Ant : public Critter
 {
 	protected:
 
 	public:
+		~Ant() override;
+		char printCritter() const override;
 
 };
 
 
 
 #endif
-
-
 
