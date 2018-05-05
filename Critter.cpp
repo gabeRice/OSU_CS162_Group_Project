@@ -5,16 +5,27 @@
  * Description: implementation file for the virtual Critter class
 *******************************************************************************/
 
-#include "Critter"
+#include "Critter.hpp"
+#include "helperFunctions.hpp"
+#include <iostream>
 
 /*******************************************************************************
- *
- * Description:
+ *			Critter::~Critter()
+ * Description: Critter destructor
 *******************************************************************************/
+Critter::~Critter()
+{
+}
 /*******************************************************************************
- *
- * Description:
+ *			Critter::printCritter()
+ * Description: returns a char for the type of critter. Ants return 'O', 
+ * doodlebugs return 'X'
 *******************************************************************************/
+char Critter::printCritter() const
+{
+	return ' ';
+}
+
 /*******************************************************************************
  *
  * Description:
